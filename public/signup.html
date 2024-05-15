@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>회원가입</h1>
+            <p>회원가입 성공 시, 로그인 창으로 이동합니다.</p>
+            <form class="form">
+                <div>
+                    <label>
+                        이메일
+                        <input type="email" name="email" id="email">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        비밀번호
+                        <input type="password" name="password" id="password">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        비밀번호 확인
+                        <input type="password" name="password2" id="password2">
+                    </label>
+                </div>
+                <div>
+                    <button id="submitBtn">확인</button>
+                </div>
+                <div class="error-container"></div>
+            </form>
+        </div>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>
